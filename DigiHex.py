@@ -10,7 +10,7 @@ st.set_page_config(
 )
 
 # Private variable for price adjustment percentage (CONTANT, dont touch imo)
-_price_adjustment_percentage = 3  # Adjust prices by this percentage (e.g., 0 for no change, 10 for +10%)
+_price_adjustment_percentage = 0  # Adjust prices by this percentage (e.g., 0 for no change, 10 for +10%)
 
 def adjust_price(price):
     """Adjust price by the set percentage."""
